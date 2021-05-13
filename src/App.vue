@@ -1,12 +1,31 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
+ 
   <router-view/>
 </template>
 
+<script>
+
+export default {
+  components :{
+  
+  }
+}
+</script>
+
 <style>
+#container{
+  display:flex;
+  flex-direction: row;
+  width: 100%;
+  height: 20%;
+  margin-top: 3%;
+  align-items: center;
+  justify-content: space-between;
+}
+#logo{
+  size: 3020px;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
